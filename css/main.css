@@ -1,0 +1,17 @@
+body {
+	font-family: "Comfortaa", sans-serif;
+	font-family: "Comic Neue", cursive;
+}
+.primary-txt {
+	color: #22bbcc;
+}
+.primary-btn{
+    border-radius: 5px;
+    background-color: #22bbcc;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
