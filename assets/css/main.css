@@ -1,0 +1,29 @@
+
+body {
+	font-family: "Comfortaa", sans-serif;
+	font-family: "Comic Neue", cursive;
+}
+.primary-txt {
+	color: #22bbcc;
+}
+.primary-btn{
+    border-radius: 5px;
+    background-color: #22bbcc;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #22bbcc19;
+    margin: 130px 0;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}

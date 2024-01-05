@@ -1,0 +1,25 @@
+nav {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title {
+	font-family: "Comfortaa";
+	color: #181818;
+	font-size: 45px;
+	font-weight: 800;
+	word-wrap: break-word;
+}
+nav > ul {
+	display: flex;
+    align-items: center;
+}
+nav li {
+	list-style: none;
+	margin-right: 50px;
+}
+nav a {
+	text-decoration: none;
+    color: #232323;
+}
