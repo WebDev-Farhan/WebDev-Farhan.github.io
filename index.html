@@ -52,10 +52,16 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/icons/favicon.png" />
     <!------CSS-->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/nav.css" />
-	<link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/246cbb873c.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Farhan Sadiq</title>
   </head>
@@ -64,8 +70,8 @@
       <nav>
         <h3 class="nav-title">Farhan <span class="primary-txt">Sadiq</span></h3>
         <ul>
-          <li><a href="">About Me</a></li>
-          <li><a href="">Blogs</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Blogs</a></li>
           <li><button class="primary-btn">Hire Me</button></li>
         </ul>
       </nav>
@@ -76,8 +82,12 @@
           <p class="banner-description">
             A full stack developer. Expert in MERN Stack and Flutter Framework
           </p>
-          <button class="primary-btn">Download CV</button>
-          <button class="primary-btn">Contact</button>
+          <button class="primary-btn banner-btn">
+            <i class="fa-solid fa-download"></i> Download CV
+          </button>
+          <button class="primary-btn">
+            <i class="fa-solid fa-phone"></i> Contact
+          </button>
         </div>
         <img
           class="profile-pic"
@@ -87,6 +97,7 @@
       </div>
     </header>
     <main>
+      <!---About Section-->
       <section class="about">
         <h3 class="section-title">About Me</h3>
         <p class="section-description">
@@ -121,6 +132,7 @@
           </div>
         </div>
       </section>
+      <!---Skill Section-->
       <section>
         <h3 class="section-title">What I do</h3>
         <p id="skills" class="section-description">
@@ -177,6 +189,7 @@
           </div>
         </div>
       </section>
+      <!--Resume Section-->
       <section>
         <h3 class="section-title">A Summery of My Resume</h3>
         <div class="resume-container">
@@ -198,7 +211,7 @@
               </p>
             </div>
             <hr />
-            <div class="resume-item">
+            <div class="resume-item skill-vice-versa">
               <h2 class="resume-item-title">Secondary Examination</h2>
               <h3 class="resume-institute">
                 Lakshmipur Adarsha Samad Govt. High School/ 2021-2023
@@ -234,7 +247,9 @@
           </div>
         </div>
         <div class="download-cv">
-          <button class="primary-btn">Download CV</button>
+          <button class="primary-btn">
+            <i class="fa-solid fa-download"></i> Download CV
+          </button>
         </div>
       </section>
     </main>
@@ -271,7 +286,13 @@
         <form class="contact" action="">
           <input type="text" name="" id="" placeholder="Name" />
           <input type="email" name="" id="" placeholder="Your email" />
-          <textarea name="" id="" cols="40" rows="10" placeholder="Your Message"></textarea>
+          <textarea
+            name=""
+            id=""
+            cols="40"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
           <input class="primary-btn" type="submit" value="Submit" />
         </form>
       </div>
