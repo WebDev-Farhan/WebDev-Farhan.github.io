@@ -6,7 +6,7 @@ body {
   color: #22bbcc;
 }
 .primary-btn {
-  border-radius: 5px;
+  border-radius: 12px 0;
   background-color: #22bbcc;
   border: 0;
   font-size: 20px;
@@ -59,10 +59,13 @@ main section {
 }
 .skill {
   padding: 30px;
-
-  border-radius: 5px;
-  background: #fff;
+ border: 2px solid #22bbcc19;
+  border-radius: 12px 0;
+  background-color: #22bbcc19;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-vice-versa{
+	border-radius: 0 12px;
 }
 .skill-description {
   color: #232323;
@@ -73,14 +76,14 @@ main section {
   font-weight: 700;
 }
 .resume-item-title {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
   color: #232323;
   font-size: 25px;
   font-weight: 700;
 }
 .resume-institute {
-	margin-top: 0px;
-	margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
   color: #232323a8;
   font-size: 20px;
   font-weight: 600;
@@ -91,15 +94,15 @@ main section {
   font-weight: 400;
   line-height: 28px;
 }
-.resume-container{
-	display: flex;
-	gap: 50px;
+.resume-container {
+  display: flex;
+  gap: 50px;
 }
-.resume-container hr{
-	margin: 30px 0;
+.resume-container hr {
+  margin: 30px 0;
 }
-.download-cv{
-	text-align: center;
-	margin-top: 50px;
-	cursor: pointer;
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+  cursor: pointer;
 }

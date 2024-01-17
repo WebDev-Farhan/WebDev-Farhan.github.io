@@ -1,0 +1,30 @@
+footer {
+  gap: 100px;
+  background: #22bbcc19;
+  display: flex;
+  padding: 130px 200px;
+  margin-top: 100px;
+}
+.footer-column {
+  width: 50%;
+}
+.social-links a {
+  margin-right: 25px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.contact input,
+textarea {
+  border: 2px solid #22bbcc19;
+  border-radius: 12px 0;
+  padding: 18px 35px;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  width: 100%;
+}
