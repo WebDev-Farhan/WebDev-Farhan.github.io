@@ -12,7 +12,7 @@
   }
   .banner {
     flex-direction: column;
-    padding: 10px 10p 0 10px;
+    padding: 10px 10px 0 10px;
     justify-content: center;
     align-items: center;
   }
