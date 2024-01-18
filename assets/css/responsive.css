@@ -10,9 +10,18 @@
     justify-content: center;
     align-items: center;
   }
+  .banner {
+    flex-direction: column;
+    padding: 10px 10p 0 x 10px;
+    justify-content: center;
+    align-items: center;
+  }
   header {
     background-image: none;
     width: 100%;
+  }
+  .banner-greetings{
+    margin-top: 22px;
   }
   .banner .profile-pic {
     width: 75%;

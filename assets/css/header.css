@@ -27,6 +27,7 @@ header {
 }
 .banner-description {
   margin-top: 0;
+  margin-bottom: 10px;
 }
 .banner-content {
   max-width: 500px;
