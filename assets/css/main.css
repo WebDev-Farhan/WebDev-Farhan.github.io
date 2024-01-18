@@ -6,6 +6,10 @@ body {
   font-family: "Comfortaa", sans-serif;
   font-family: "Comic Neue", cursive;
 }
+button a{
+  text-decoration: none;
+  color: #fff;
+}
 .primary-txt {
   color: #22bbcc;
 }

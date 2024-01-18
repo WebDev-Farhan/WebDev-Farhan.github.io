@@ -8,6 +8,11 @@ footer {
 .footer-column {
   width: 50%;
 }
+.social-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .social-links a {
   margin-right: 25px;
 }

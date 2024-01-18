@@ -50,7 +50,10 @@
       rel="stylesheet"
     />
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/icons/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png" />
+    <link rel="manifest" href="./site.webmanifest" />
     <!------CSS-->
     <link rel="stylesheet" href="assets/css/nav.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
@@ -70,9 +73,9 @@
       <nav>
         <h3 class="nav-title">Farhan <span class="primary-txt">Sadiq</span></h3>
         <ul>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Blogs</a></li>
-          <li><button class="primary-btn">Hire Me</button></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#mySkills">My Skills</a></li>
+          <li><button class="primary-btn"><a href="#contact">Hire Me</a></button></li>
         </ul>
       </nav>
       <div class="banner">
@@ -86,7 +89,9 @@
             <i class="fa-solid fa-download"></i> Download CV
           </button>
           <button class="primary-btn">
-            <i class="fa-solid fa-phone"></i> Contact
+            <a href="#contact">
+              <i class="fa-solid fa-globe"></i> Connect with me
+            </a>
           </button>
         </div>
         <img
@@ -98,7 +103,7 @@
     </header>
     <main>
       <!---About Section-->
-      <section class="about">
+      <section class="about" id="about">
         <h3 class="section-title">About Me</h3>
         <p class="section-description">
           I'm a full-stack developer with a passion for building beautiful and
@@ -134,7 +139,7 @@
       </section>
       <!---Skill Section-->
       <section>
-        <h3 class="section-title">What I do</h3>
+        <h3 class="section-title" id="mySkills">What I do</h3>
         <p id="skills" class="section-description">
           Building solutions that empower and inspire. Data alchemist,
           transforming numbers into insights. Bridging the gap between users and
@@ -265,33 +270,59 @@
             href="https://www.facebook.com/EnigmaFarhanSadiq/"
             target="_blank"
             rel="noopener noreferrer"
-            ><img src="./assets/icons/fb.svg" alt="Facebook"
-          /></a>
+            ><i class="fa-brands fa-facebook-f fa-xl" style="color: #22bbcc"></i
+          ></a>
           <a
             href="https://twitter.com/Farhan_Sadiq_"
             target="_blank"
             rel="noopener noreferrer"
-            ><img src="./assets/icons/twitter.png" alt="Twitter"
-          /></a>
+            ><i class="fa-brands fa-x-twitter fa-xl" style="color: #22bbcc"></i
+          ></a>
           <a
             href="https://instagram.com/EnigmaFarhanSadiq"
             target="_blank"
             rel="noopener noreferrer"
-            ><img src="./assets/icons/insta.png" alt="insta"
-          /></a>
+            ><i class="fa-brands fa-instagram fa-xl" style="color: #22bbcc"></i
+          ></a>
+          <a
+            href="https://github.com/WebDev-Farhan"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i
+              class="fa-brands fa-github-alt fa-2xl"
+              style="color: #22bbcc"
+            ></i
+          ></a>
         </div>
       </div>
       <div class="footer-column">
-        <h3 class="section-title">Message Me</h3>
-        <form class="contact" action="">
-          <input type="text" name="" id="" placeholder="Name" />
-          <input type="email" name="" id="" placeholder="Your email" />
+        <h3 class="section-title" id="contact">Message Me</h3>
+        <form
+          class="contact"
+          action="https://formspree.io/f/moqgvzvz"
+          method="POST"
+        >
+          <input
+            type="text"
+            required
+            name="Name"
+            id=""
+            placeholder="Hi there, what's your name?"
+          />
+          <input
+            type="email"
+            required
+            name="Email"
+            id=""
+            placeholder="And what's your email?"
+          />
           <textarea
-            name=""
+            name="Message"
             id=""
             cols="40"
             rows="10"
-            placeholder="Your Message"
+            placeholder="What do you wanna say? I'm ready to assist you..."
+            required
           ></textarea>
           <input class="primary-btn" type="submit" value="Submit" />
         </form>

@@ -13,6 +13,7 @@ nav {
   word-wrap: break-word;
 }
 nav > ul {
+  margin-top: 8px;
   display: flex;
   align-items: center;
 }
