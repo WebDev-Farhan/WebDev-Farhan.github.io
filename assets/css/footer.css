@@ -2,7 +2,7 @@ footer {
   gap: 100px;
   background: #22bbcc19;
   display: flex;
-  padding: 130px 200px;
+  padding: 3rem 12.5rem 1rem;
   margin-top: 100px;
 }
 .footer-column {

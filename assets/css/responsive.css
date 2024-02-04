@@ -10,6 +10,9 @@
     justify-content: center;
     align-items: center;
   }
+  footer, .download-cv{
+    margin-top: 1rem;
+  }
   .banner {
     flex-direction: column;
     padding: 10px 10px 0 10px;
@@ -64,6 +67,14 @@
     font-size: 18px;
     text-align: center;
   }
+  footer, .download-cv, .section-skill, .section-resume{
+    margin-top: 1rem;
+  }
+  .about{
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
   .skill{
     display: flex;
     flex-direction: column;
@@ -92,19 +103,47 @@
     justify-content: center;
     align-items: center;
   }
+  footer, .download-cv, .section-skill, .section-resume{
+    margin-top: 1.5rem;
+  }
+  .about{
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .skill{
+    text-align: justify;
+    align-items: flex-start;
+  }
+  .logo-versa{
+    align-items: flex-end;
+  }
+  .banner-title {
+    font-size: 4rem;
+  }
+  .profile-pic{
+    width: 80%;
+  }
+  .primary-btn{
+font-size: 1rem;
+padding: 1rem 1.8rem;
+  }
+  .nav-title {
+    font-size: 1.8rem;
+  }
+
   .resume-container {
     justify-content: center;
     align-items: center;
     padding: 1rem;
   }
-  .banner .profile-pic {
-    width: 100%;
-  }
+  
+
   .btn-cont{
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
+   width: 100%;
     align-items: center;
   
   }

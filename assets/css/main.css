@@ -22,9 +22,10 @@ button a{
   font-weight: 700;
   padding: 0.9375rem 2.1875rem;
   margin-bottom: 0.5625rem;
+  cursor: pointer;
 }
 .about {
-  padding: 8.125rem;
+  padding: 5rem;
   border-radius: 10px;
   background-color: #22bbcc19;
   margin: 8.125rem 0;
@@ -75,6 +76,12 @@ main section {
   border: 2px solid #22bbcc19;
   border-radius: 12px 0;
   background: #22bbcc19;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 .skill-vice-versa, .btn-vice-versa{
@@ -125,6 +132,15 @@ main section {
 }
 .download-cv {
   text-align: center;
-  margin-top: 3.125rem;
-  cursor: pointer;
+}
+.running{
+  cursor: progress;
+}
+footer, .download-cv, .section-skill, .section-resume{
+  margin-top: 4rem;
+}
+.about{
+
+  margin-top: 4rem;
+  margin-bottom: 0;
 }
