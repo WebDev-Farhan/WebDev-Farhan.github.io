@@ -1,9 +1,6 @@
 <div align="center">
 
-# Welcome to [Your Name]'s Portfolio 👋
-
-![GitHub followers](https://img.shields.io/github/followers/WebDev-Farhan?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/your-twitter-handle?style=social)
+# Welcome to Farhan's Github Profile 👋
 
 </div>
 
@@ -53,8 +50,6 @@ Feel free to reach out if you have any questions or just want to chat!
 
 ---
 
-## 🌐 Visit My Portfolio
-
-👉 [Your Portfolio Website](https://webdev-farhan.github.io)
+## [🌐 Visit My Portfolio](https://webdev-farhan.github.io)
 
 </div>
