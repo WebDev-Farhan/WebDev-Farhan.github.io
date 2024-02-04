@@ -17,36 +17,36 @@ button a{
   border-radius: 12px 0;
   background-color: #22bbcc;
   border: 0;
-  font-size: 20px;
+  font-size: 1.125rem;
   color: #fff;
   font-weight: 700;
-  padding: 15px 35px;
-  margin-bottom: 9px;
+  padding: 0.9375rem 2.1875rem;
+  margin-bottom: 0.5625rem;
 }
 .about {
-  padding: 130px;
+  padding: 8.125rem;
   border-radius: 10px;
   background-color: #22bbcc19;
-  margin: 130px 0;
+  margin: 8.125rem 0;
 }
 .section-title {
   color: #181818;
   text-align: center;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 2.1875rem;
 }
 .section-description {
   color: #181818;
   text-align: center;
-  font-size: 18px;
-  margin-bottom: 20px;
+  font-size: 1.125rem;
+  margin-bottom: 1.25rem;
 }
 main {
   max-width: 1140px;
   margin: 0 auto;
 }
 main section {
-  margin-top: 130px;
+  margin-top: 8.125rem;
 }
 .about-info-container {
   display: flex;
@@ -60,23 +60,24 @@ main section {
 }
 .info-description {
   max-lines: 1;
-  margin-bottom: 6px;
+  margin-bottom: 0.375rem;
 }
 #skills {
-  padding: 30px 150px;
+  padding: 1.875rem 150px;
 }
 .skill-container {
   display: flex;
-  gap: 24px;
+  gap: 1.5rem;
+  padding: 1rem;
 }
 .skill {
-  padding: 30px;
+  padding: 1.875rem;
   border: 2px solid #22bbcc19;
   border-radius: 12px 0;
   background: #22bbcc19;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.skill-vice-versa {
+.skill-vice-versa, .btn-vice-versa{
   border-radius: 0 12px;
 }
 .skill-description {
@@ -84,29 +85,29 @@ main section {
 }
 .resume-column-title {
   color: #232323;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
 }
 .resume-item-title {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   color: #232323;
-  font-size: 25px;
+  font-size: 1.56rem;
   font-weight: 700;
 }
 .resume-institute {
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   color: #232323a8;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 .resume-item-description {
   text-align: justify;
   padding: 10px;
   color: #232323;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.75rem;
   border: 2px solid #22bbcc19;
   border-radius: 12px 0;
   background: #22bbcc19;
@@ -114,15 +115,16 @@ main section {
 }
 .resume-container {
   display: flex;
-  gap: 50px;
+  gap: 3.125rem;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
 }
 .resume-container hr {
-  margin: 30px 0;
+  margin: 1.875rem 0;
 }
 .download-cv {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 3.125rem;
   cursor: pointer;
 }

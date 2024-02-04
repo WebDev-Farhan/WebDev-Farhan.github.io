@@ -84,6 +84,7 @@
   }
   .skill-container {
     flex-wrap: wrap;
+    padding: 1rem;
   }
   .about-info-container {
     flex-direction: column;
@@ -94,6 +95,7 @@
   .resume-container {
     justify-content: center;
     align-items: center;
+    padding: 1rem;
   }
   .banner .profile-pic {
     width: 100%;
