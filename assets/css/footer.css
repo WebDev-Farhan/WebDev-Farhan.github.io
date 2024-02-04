@@ -4,6 +4,8 @@ footer {
   display: flex;
   padding: 3rem 12.5rem 1rem;
   margin-top: 100px;
+  align-items: center;
+  justify-content: center;
 }
 .footer-column {
   width: 50%;
