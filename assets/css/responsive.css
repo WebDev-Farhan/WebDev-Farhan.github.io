@@ -6,7 +6,7 @@
   .about-info-container,
   .banner {
     flex-direction: column;
-    padding: 10px;
+    padding: 1rem;
     justify-content: center;
     align-items: center;
   }
@@ -16,7 +16,18 @@
     justify-content: center;
     align-items: center;
   }
+  .btn-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    
+  }
   header {
+    padding-top: 0;
     background-image: none;
     width: 100%;
   }
@@ -25,6 +36,7 @@
   }
   .banner .profile-pic {
     width: 75%;
+    padding-left: 1rem;
   }
   nav {
     display: none;
@@ -52,6 +64,13 @@
     font-size: 18px;
     text-align: center;
   }
+  .skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
 }
 /*---Tablets---*/
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -78,6 +97,14 @@
   }
   .banner .profile-pic {
     width: 100%;
+  }
+  .btn-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    align-items: center;
+  
   }
   header {
     background-image: none;

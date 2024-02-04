@@ -53,6 +53,7 @@ main section {
   text-align: center;
   justify-content: space-around;
   max-lines: 1;
+  gap: 1rem;
 }
 .about-info {
   text-align: center;

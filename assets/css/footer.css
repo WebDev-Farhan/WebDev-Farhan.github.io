@@ -27,6 +27,7 @@ textarea {
   border: 2px solid #22bbcc19;
   border-radius: 12px 0;
   padding: 18px 35px;
+  outline-color: #22bbcc;
 }
 .contact input[type="text"],
 .contact input[type="email"],
